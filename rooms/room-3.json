@@ -1,0 +1,84 @@
+{
+  "__comment": "Dark gray room (3)",
+  "color": {
+    "r": 126,
+    "g": 126,
+    "b": 126
+  },
+  "westwall": {
+    "paintings": [
+      {
+        "position": "north",
+        "src": "box on wharf.jpg",
+        "name": "Harbor Container in Bordeaux"
+      },
+      {
+        "position": "center",
+        "src": "BenchinSnow.JPG",
+        "name": "Bench in the Snow, Telefonplan, Sweden"
+      },
+      {
+        "position": "south",
+        "src": "bjx2.jpg",
+        "name": "Grafitti No. 256"
+      }
+    ]
+  },
+  "northwall": {
+    "door": {
+      "id": "northdoor",
+      "linkedRoom": "7",
+      "enterFrom": "south"
+    },
+    "paintings": [
+      {
+        "position": "west",
+        "src": "elephant-in-venice2.JPG",
+        "name": "Ice Cream Elephant"
+      },
+      {
+        "position": "east",
+        "src": "Three kids fishing.JPG",
+        "name": "Children Fishing"
+      }
+    ]
+  },
+  "eastwall": {
+    "door": {
+      "id": "eastdoor",
+      "linkedRoom": "7",
+      "enterFrom": "west"
+    },
+    "paintings": [
+      {
+        "position": "north",
+        "src": "Bolero.jpg",
+        "name": "Bolero"
+      },
+      {
+        "position": "south",
+        "src": "Abstract in Yellow and Black.jpg",
+        "name": "Abstract in Yellow and Black"
+      }
+    ]
+  },
+  "southwall": {
+    "paintings": [
+      {
+        "position": "west",
+        "src": "Plumes.JPG",
+        "name": "Mardi Gras Plumes"
+      },
+      {
+        "position": "center",
+        "src": "birdsnestGrey.jpg",
+        "name": "Birds Nest"
+      },
+      {
+        "position": "east",
+        "src": "Atlas Valley.jpg",
+        "name": "Atlas Valley Arch, Stockholm"
+      }
+    ]
+  }
+}

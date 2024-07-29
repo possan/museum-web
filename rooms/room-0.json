@@ -1,0 +1,153 @@
+{
+  "__comment": "Gray room (0)",
+  "color": {
+    "r": 165,
+    "g": 165,
+    "b": 165
+  },
+  "paintings": [
+    {
+      "wall": "west",
+      "position": "north",
+      "src": "AfroCubanMan20.jpg",
+      "name": "Cuban Man"
+    },
+    {
+      "wall": "west",
+      "position": "south",
+      "src": "Woman from the Appolo.jpg",
+      "name": "Woman from the Apollo Theater, Harlem"
+    },
+    {
+      "wall": "north",
+      "position": "west",
+      "src": "boy in fountain4.jpg",
+      "name": "French Boy in Green Shirt"
+    },
+    {
+      "wall": "north",
+      "position": "east",
+      "src": "Samuel.JPG",
+      "name": "Samuel in Brooklyn"
+    },
+
+    {
+      "wall": "east",
+      "position": "north",
+      "src": "girl-in-rainbow-dress-safety-002.jpg",
+      "name": "Girl in Rainbow Dress"
+    },
+    {
+      "wall": "east",
+      "position": "center",
+      "src": "Man in Dieulefit12.jpg",
+      "name": "Dieulefit Man"
+    },
+    {
+      "wall": "east",
+      "position": "south",
+      "src": "Exhausted Footballer.JPG",
+      "name": "Exhausted Soccer Player"
+    },
+
+    {
+      "wall": "south",
+      "position": "west",
+      "src": "Fiona.JPG",
+      "name": "Fiona FitzPatrick"
+    },
+    {
+      "wall": "south",
+      "position": "center",
+      "src": "boyinhatNew8.jpg",
+      "name": "Boy in Pink Hat, Finnspång Sweden, 2009",
+      "caption": "Finnspång Sweden, 2009"
+    },
+    {
+      "wall": "south",
+      "position": "east",
+      "src": "Jaime-on-a-wall4.jpg",
+      "name": "Jaime",
+      "caption": "China, 2008"
+    }
+  ],
+  "doors": [],
+  "westwall": {
+    "door": {
+      "id": "westdoor",
+      "linkedRoom": "3",
+      "enterFrom": "east"
+    },
+    "paintings": [
+      {
+        "position": "north",
+        "src": "AfroCubanMan20.jpg",
+        "name": "Cuban Man"
+      },
+      {
+        "position": "south",
+        "src": "Woman from the Appolo.jpg",
+        "name": "Woman from the Apollo Theater, Harlem"
+      }
+    ]
+  },
+  "northwall": {
+    "door": {
+      "id": "northdoor",
+      "linkedRoom": "7",
+      "enterFrom": "south"
+    },
+    "paintings": [
+      {
+        "position": "west",
+        "src": "boy in fountain4.jpg",
+        "name": "French Boy in Green Shirt"
+      },
+      {
+        "position": "east",
+        "src": "Samuel.JPG",
+        "name": "Samuel in Brooklyn"
+      }
+    ]
+  },
+  "eastwall": {
+    "paintings": [
+      {
+        "position": "north",
+        "src": "girl-in-rainbow-dress-safety-002.jpg",
+        "name": "Girl in Rainbow Dress"
+      },
+      {
+        "position": "center",
+        "src": "Man in Dieulefit12.jpg",
+        "name": "Dieulefit Man"
+      },
+      {
+        "position": "south",
+        "src": "Exhausted Footballer.JPG",
+        "name": "Exhausted Soccer Player"
+      }
+    ]
+  },
+  "southwall": {
+    "paintings": [
+      {
+        "position": "west",
+        "src": "Fiona.JPG",
+        "name": "Fiona FitzPatrick"
+      },
+      {
+        "position": "center",
+        "src": "boyinhatNew8.jpg",
+        "name": "Boy in Pink Hat, Finnspång Sweden, 2009",
+        "caption": "Finnspång Sweden, 2009"
+      },
+      {
+        "position": "east",
+        "src": "Jaime-on-a-wall4.jpg",
+        "name": "Jaime",
+        "caption": "China, 2008"
+      }
+    ]
+  }
+}

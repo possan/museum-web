@@ -1,0 +1,84 @@
+{
+  "__comment": "Green room (7)",
+  "color": {
+    "r": 126,
+    "g": 152,
+    "b": 126
+  },
+  "westwall": {
+    "door": {
+      "id": "westdoor",
+      "linkedRoom": "5",
+      "enterFrom": "east"
+    },
+    "paintings": [
+      {
+        "position": "north",
+        "src": "Broken Glass.jpg",
+        "name": "Broken Glass"
+      },
+      {
+        "position": "south",
+        "src": "artificial-flowers3.jpg",
+        "name": "Artificial Flowers"
+      }
+    ]
+  },
+  "northwall": {
+    "paintings": [
+      {
+        "position": "west",
+        "src": "musee-d-orsay2.jpg",
+        "name": "Musee d Orsay Sculpture, Paris.jpg"
+      },
+      {
+        "position": "center",
+        "src": "IMG_0313.jpg",
+        "name": "Outside Looking In"
+      },
+      {
+        "position": "east",
+        "src": "Fishing Nets.JPG",
+        "name": "Fishing Nets"
+      }
+    ]
+  },
+  "eastwall": {
+    "paintings": [
+      {
+        "position": "north",
+        "src": "califati-iceberg2.jpg",
+        "name": "Perito Moreno Iceberg"
+      },
+      {
+        "position": "center",
+        "src": "WorkingSpace.jpg",
+        "name": "Working Space "
+      },
+      {
+        "position": "south",
+        "src": "House on west broadway3.jpg",
+        "name": "House on West Broadway"
+      }
+    ]
+  },
+  "southwall": {
+    "door": {
+      "id": "southdoor",
+      "linkedRoom": "0",
+      "enterFrom": "north"
+    },
+    "paintings": [
+      {
+        "position": "west",
+        "src": "Beach windows.jpg",
+        "name": "Windows on Selen Beach, Rugen"
+      },
+      {
+        "position": "east",
+        "src": "Rugen Resort.jpg",
+        "name": "Prora Hallway"
+      }
+    ]
+  }
+}
